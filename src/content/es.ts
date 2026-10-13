@@ -24,7 +24,7 @@ export const es: Contenido = {
     disponible: 'Disponible para proyectos',
     titular: ['Hago webs y aplicaciones a medida.', 'Y las hago seguras.'],
     subtitulo:
-      'Soy Paco López, desarrollador full-stack en Málaga. Me ocupo de todo el camino, de la idea a la web funcionando, y reviso la seguridad desde el primer día, no al final.',
+      'Soy Paco López, desarrollador full-stack en Málaga. Me ocupo de todo el camino, de la idea a la web funcionando, y reviso la seguridad desde el primer día, no al final. Trabajo con pequeños negocios y autónomos.',
     ctaContacto: 'Cuéntame tu proyecto',
     ctaTrabajos: 'Ver trabajos',
     fotoAlt: 'Retrato de Paco López',
@@ -43,7 +43,7 @@ export const es: Contenido = {
   ],
   trabajos: {
     titulo: 'Trabajos',
-    intro: 'Tres proyectos propios, terminados y publicados. Puedes abrirlos, usarlos y leer el código.',
+    intro: 'Tres proyectos propios, terminados y publicados. Puedes abrirlos, usarlos y leer el código. Ovillo & Co. es una tienda de demostración, sin cliente real; los otros dos son herramientas que cualquiera puede usar.',
     etiquetas: {
       problema: 'El problema',
       solucion: 'Qué hice',
@@ -56,10 +56,10 @@ export const es: Contenido = {
         id: 'ovillo-co',
         tema: 'ovillo',
         nombre: 'Ovillo & Co.',
-        tipo: 'Tienda online completa',
-        resumen: 'Un taller de crochet de Málaga, con tienda, pago y panel del dueño, hecho de principio a fin.',
+        tipo: 'Tienda online completa (demo)',
+        resumen: 'Tienda de demostración de un taller de crochet, con pago y panel del dueño, hecha de principio a fin. No hay un cliente real detrás.',
         problema:
-          'Un negocio pequeño que vende piezas únicas y por encargo no encaja en una plantilla genérica: necesita plazos de confección, personalización y un panel que pueda usar sin saber de informática.',
+          'El caso que planteé: un negocio pequeño que vende piezas únicas y por encargo no encaja en una plantilla genérica: necesita plazos de confección, personalización y un panel que pueda usar sin saber de informática.',
         solucion:
           'Una tienda con catálogo y filtros, cesta que no pierde nada, pago con Stripe, cuentas de clientes, encargos con fotos de referencia y un panel del taller con ventas, pedidos, stock y mensajes. En cuatro idiomas.',
         construccion:
@@ -138,8 +138,8 @@ export const es: Contenido = {
       {
         id: 'seguridad',
         titulo: 'Seguridad',
-        texto: 'Revisar lo que ya tienes o construirlo bien desde el principio. Con informe claro y lista de lo que hay que arreglar, por orden de importancia.',
-        incluye: ['Auditoría y refuerzo de webs existentes', 'Autenticación y control de accesos', 'Protección de datos y cumplimiento básico del RGPD', 'Cabeceras, CSP y configuración segura'],
+        texto: 'Revisar lo que ya tienes o construirlo bien desde el principio. Con informe claro y lista de lo que hay que arreglar, por orden de importancia. Solo reviso webs con permiso por escrito de su titular.',
+        incluye: ['Revisión técnica y refuerzo de webs existentes', 'Autenticación y control de accesos', 'Protección de datos: medidas técnicas básicas (RGPD)', 'Cabeceras, CSP y configuración segura'],
       },
       {
         id: 'datos',
@@ -196,7 +196,7 @@ export const es: Contenido = {
   pie: {
     derechos: 'Paco López',
     codigo: 'Código de esta web',
-    privacidad: 'Esta web no usa cookies, no tiene analítica ni scripts de terceros y no guarda datos tuyos.',
+    privacidad: 'Esta web no usa cookies, no tiene analítica ni scripts de terceros y no guarda datos tuyos por su cuenta.',
     enlacePrivacidad: 'Privacidad',
     enlaceAvisoLegal: 'Aviso legal',
   },
@@ -210,7 +210,7 @@ export const es: Contenido = {
       secciones: [
         {
           titulo: 'Resumen',
-          parrafos: ['Esta web no usa cookies, no tiene analítica, no carga scripts ni tipografías de terceros y no tiene formularios. No guarda nada sobre ti.'],
+          parrafos: ['Esta web no usa cookies, no tiene analítica, no carga scripts ni tipografías de terceros y no tiene formularios. No guarda datos tuyos por su cuenta; solo el proveedor de alojamiento puede registrar datos técnicos de la conexión (ver «Alojamiento»).'],
         },
         {
           titulo: 'Quién es el responsable',
@@ -219,14 +219,14 @@ export const es: Contenido = {
         {
           titulo: 'Si me escribes',
           parrafos: [
-            'Los enlaces de contacto abren tu programa de correo: el mensaje no pasa por esta web, llega directamente a mi bandeja. Uso tu mensaje y tus datos solo para responderte y, si lo decides, preparar una propuesta. La base legal es tu consulta y las medidas previas a un posible contrato.',
-            'Conservo la conversación mientras dure y, después, el tiempo que obligue la ley si hubo una relación comercial. No cedo tus datos a nadie, salvo obligación legal.',
+            'Los enlaces de contacto abren tu programa de correo: el mensaje no pasa por esta web, llega directamente a mi bandeja. Uso tu mensaje y tus datos solo para responderte y, si lo decides, preparar una propuesta. La base legal es tu consulta y las medidas previas a un posible contrato (art. 6.1.b del RGPD) o, si solo me haces una pregunta, mi interés legítimo en responderte (art. 6.1.f). Mi correo funciona sobre Gmail (Google), que actúa como proveedor del servicio de correo.',
+            'Conservo la conversación mientras dure y, si no llega a haber contrato, la borro a los 12 meses del último mensaje. Si hubo una relación comercial, la conservo el tiempo que obligue la ley. No cedo tus datos a nadie, salvo obligación legal o a los proveedores de correo y alojamiento citados.',
           ],
         },
         {
           titulo: 'Alojamiento',
           parrafos: [
-            'La web se aloja en Vercel. Como cualquier servidor, Vercel puede registrar datos técnicos de la conexión (como la dirección IP) para el funcionamiento y la seguridad del servicio. Las tipografías se sirven desde esta misma web, sin pasar por Google.',
+            'La web se aloja en Vercel. Como cualquier servidor, Vercel puede registrar datos técnicos de la conexión (como la dirección IP) para el funcionamiento y la seguridad del servicio. Vercel es una empresa de EE. UU.; las transferencias fuera del Espacio Económico Europeo se amparan en cláusulas contractuales tipo. Las tipografías se sirven desde esta misma web, sin pasar por Google.',
           ],
         },
         {
@@ -244,7 +244,9 @@ export const es: Contenido = {
       secciones: [
         {
           titulo: 'Titular',
-          parrafos: ['Esta web es el portfolio profesional de Paco López, desarrollador, con sede en Málaga (España). Contacto: soypacodev@gmail.com.'],
+          parrafos: ['Esta web es el portfolio profesional de Paco López, desarrollador, con sede en Málaga (España). Contacto: soypacodev@gmail.com.',
+            'Todavía no ejerzo como autónomo. Antes de facturar me daré de alta y publicaré aquí mi NIF y mi domicilio profesional.',
+          ],
         },
         {
           titulo: 'Objeto',
@@ -253,7 +255,7 @@ export const es: Contenido = {
         {
           titulo: 'Propiedad intelectual',
           parrafos: [
-            'Los textos y el diseño son míos. El código de esta web es público en GitHub bajo licencia MIT. Las capturas muestran proyectos propios; los nombres y marcas de terceros que aparecen (Stripe, Supabase, Vercel y otros) pertenecen a sus dueños.',
+            'Los textos, el diseño y las fotos son míos y no entran en la licencia MIT, que cubre solo el código de esta web, público en GitHub. Las capturas muestran proyectos propios; los nombres y marcas de terceros que aparecen (Stripe, Supabase, Vercel y otros) pertenecen a sus dueños.',
           ],
         },
         {

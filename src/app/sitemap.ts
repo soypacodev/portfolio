@@ -8,9 +8,12 @@ const RUTAS = [
   { ruta: '/aviso-legal', prioridad: 0.2 },
 ] as const;
 
+/** Fecha de la última revisión del contenido; se actualiza al tocar los textos. */
+const ULTIMA_REVISION = new Date('2026-10-13');
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return RUTAS.flatMap(({ ruta, prioridad }) => {
     const idiomas = Object.fromEntries(IDIOMAS.map((i) => [i, `${SITIO.url}/${i}${ruta}`]));
-    return IDIOMAS.map((i) => ({ url: `${SITIO.url}/${i}${ruta}`, changeFrequency: 'monthly' as const, priority: prioridad, alternates: { languages: idiomas } }));
+    return IDIOMAS.map((i) => ({ url: `${SITIO.url}/${i}${ruta}`, lastModified: ULTIMA_REVISION, changeFrequency: 'monthly' as const, priority: prioridad, alternates: { languages: idiomas } }));
   });
 }

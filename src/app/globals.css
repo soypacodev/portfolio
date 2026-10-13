@@ -248,18 +248,12 @@ main:focus {
 .menu {
   order: 3;
   width: 100%;
-  margin-inline: calc(-1 * var(--gutter));
-  padding-inline: var(--gutter);
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-.menu::-webkit-scrollbar {
-  display: none;
 }
 .menu ul {
   display: flex;
-  gap: 0.25rem;
-  width: max-content;
+  flex-wrap: wrap;
+  gap: 0 0.25rem;
+  margin-inline: -0.85rem;
 }
 .menu a,
 .idioma {
@@ -293,9 +287,9 @@ main:focus {
   .menu {
     order: 0;
     width: auto;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
+  }
+  .menu ul {
+    margin-inline: 0;
   }
 }
 

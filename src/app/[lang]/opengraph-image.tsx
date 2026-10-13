@@ -8,7 +8,7 @@ import { MARCA } from '@/lib/sitio';
 
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
-export const alt = 'Paco López · Desarrollador full-stack';
+export const alt = 'Paco López · Desarrollador full-stack · Full-stack developer';
 
 async function fuentes() {
   const leer = (a: string) => readFile(join(process.cwd(), 'assets/fuentes', a));

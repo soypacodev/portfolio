@@ -24,7 +24,7 @@ export const en: Contenido = {
     disponible: 'Available for projects',
     titular: ['I build custom websites and apps.', 'And I build them secure.'],
     subtitulo:
-      "I'm Paco López, a full-stack developer in Málaga, Spain. I take care of the whole path from idea to working product, and I look at security from day one, not at the end.",
+      "I'm Paco López, a full-stack developer in Málaga, Spain. I take care of the whole path from idea to working product, and I look at security from day one, not at the end. I work with small businesses and freelancers.",
     ctaContacto: 'Tell me about your project',
     ctaTrabajos: 'See my work',
     fotoAlt: 'Portrait of Paco López',
@@ -43,7 +43,7 @@ export const en: Contenido = {
   ],
   trabajos: {
     titulo: 'Work',
-    intro: 'Three projects of my own, finished and published. You can open them, use them and read the code.',
+    intro: 'Three projects of my own, finished and published. You can open them, use them and read the code. Ovillo & Co. is a demo shop with no real client; the other two are tools anyone can use.',
     etiquetas: {
       problema: 'The problem',
       solucion: 'What I did',
@@ -56,10 +56,10 @@ export const en: Contenido = {
         id: 'ovillo-co',
         tema: 'ovillo',
         nombre: 'Ovillo & Co.',
-        tipo: 'Complete online shop',
-        resumen: 'A crochet workshop from Málaga, with a shop, checkout and an owner dashboard, built end to end.',
+        tipo: 'Complete online shop (demo)',
+        resumen: 'A demo shop for a crochet workshop, with checkout and an owner dashboard, built end to end. There is no real client behind it.',
         problema:
-          "A small business selling one-off and made-to-order pieces doesn't fit a generic template: it needs lead times, personalisation and a dashboard the owner can use without being technical.",
+          "The case I set myself: a small business selling one-off and made-to-order pieces doesn't fit a generic template: it needs lead times, personalisation and a dashboard the owner can use without being technical.",
         solucion:
           'A shop with catalogue and filters, a basket that never loses anything, Stripe checkout, customer accounts, custom orders with reference photos and a workshop dashboard with sales, orders, stock and messages. In four languages.',
         construccion:
@@ -138,8 +138,8 @@ export const en: Contenido = {
       {
         id: 'seguridad',
         titulo: 'Security',
-        texto: 'Review what you already have, or build it right from the start. With a clear report and a list of what to fix, in order of importance.',
-        incluye: ['Audit and hardening of existing sites', 'Authentication and access control', 'Data protection and basic GDPR compliance', 'Headers, CSP and secure configuration'],
+        texto: 'Review what you already have, or build it right from the start. With a clear report and a list of what to fix, in order of importance. I only review sites with the written permission of their owner.',
+        incluye: ['Technical review and hardening of existing sites', 'Authentication and access control', 'Data protection: basic technical measures (GDPR)', 'Headers, CSP and secure configuration'],
       },
       {
         id: 'datos',
@@ -196,7 +196,7 @@ export const en: Contenido = {
   pie: {
     derechos: 'Paco López',
     codigo: 'Source code of this site',
-    privacidad: 'This site uses no cookies, has no analytics or third-party scripts and stores none of your data.',
+    privacidad: 'This site uses no cookies, has no analytics or third-party scripts and stores none of your data by itself.',
     enlacePrivacidad: 'Privacy',
     enlaceAvisoLegal: 'Legal notice',
   },
@@ -210,7 +210,7 @@ export const en: Contenido = {
       secciones: [
         {
           titulo: 'Summary',
-          parrafos: ['This site uses no cookies, has no analytics, loads no third-party scripts or fonts and has no forms. It stores nothing about you.'],
+          parrafos: ['This site uses no cookies, has no analytics, loads no third-party scripts or fonts and has no forms. It stores none of your data by itself; only the hosting provider may log technical connection data (see “Hosting”).'],
         },
         {
           titulo: 'Who is responsible',
@@ -219,14 +219,14 @@ export const en: Contenido = {
         {
           titulo: 'If you write to me',
           parrafos: [
-            'The contact links open your email program: the message does not go through this site, it reaches my inbox directly. I use your message and details only to reply to you and, if you decide so, to prepare a proposal. The legal basis is your enquiry and the steps prior to a possible contract.',
-            'I keep the conversation while it lasts and, afterwards, for as long as the law requires if there was a commercial relationship. I do not share your data with anyone, except where legally required.',
+            'The contact links open your email program: the message does not go through this site, it reaches my inbox directly. I use your message and details only to reply to you and, if you decide so, to prepare a proposal. The legal basis is your enquiry and the steps prior to a possible contract (art. 6.1.b GDPR) or, if you only ask me a question, my legitimate interest in answering you (art. 6.1.f). My email runs on Gmail (Google), which acts as the email service provider.',
+            'I keep the conversation while it lasts and, if no contract follows, I delete it 12 months after the last message. If there was a commercial relationship, I keep it for as long as the law requires. I do not share your data with anyone, except where legally required or with the email and hosting providers named here.',
           ],
         },
         {
           titulo: 'Hosting',
           parrafos: [
-            'The site is hosted on Vercel. Like any server, Vercel may log technical connection data (such as the IP address) for the operation and security of the service. Fonts are served from this same site, without going through Google.',
+            'The site is hosted on Vercel. Like any server, Vercel may log technical connection data (such as the IP address) for the operation and security of the service. Vercel is a US company; transfers outside the European Economic Area rely on standard contractual clauses. Fonts are served from this same site, without going through Google.',
           ],
         },
         {
@@ -244,7 +244,9 @@ export const en: Contenido = {
       secciones: [
         {
           titulo: 'Owner',
-          parrafos: ['This site is the professional portfolio of Paco López, developer, based in Málaga (Spain). Contact: soypacodev@gmail.com.'],
+          parrafos: ['This site is the professional portfolio of Paco López, developer, based in Málaga (Spain). Contact: soypacodev@gmail.com.',
+            'I am not yet self-employed. Before invoicing anyone I will register and publish my tax ID and my business address here.',
+          ],
         },
         {
           titulo: 'Purpose',
@@ -253,7 +255,7 @@ export const en: Contenido = {
         {
           titulo: 'Intellectual property',
           parrafos: [
-            'The text and design are mine. The code of this site is public on GitHub under the MIT licence. The screenshots show my own projects; third-party names and trademarks that appear (Stripe, Supabase, Vercel and others) belong to their owners.',
+            'The text, design and photos are mine and are not covered by the MIT licence, which covers only the code of this site, public on GitHub. The screenshots show my own projects; third-party names and trademarks that appear (Stripe, Supabase, Vercel and others) belong to their owners.',
           ],
         },
         {
