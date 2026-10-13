@@ -11,7 +11,7 @@ export function PaginaLegal({ lang, c, documento }: { lang: Idioma; c: Contenido
       <a className="saltar" href="#principal">
         {c.accesibilidad.saltar}
       </a>
-      <Cabecera lang={lang} c={c} />
+      <Cabecera lang={lang} c={c} ruta={documento === 'privacidad' ? '/privacidad' : '/aviso-legal'} />
       <main id="principal" tabIndex={-1} className="legal">
         <div className="contenedor legal__contenido">
           <p>

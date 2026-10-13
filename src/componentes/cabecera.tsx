@@ -6,7 +6,8 @@ import { SITIO } from '@/lib/sitio';
 
 const NOMBRE_IDIOMA: Record<Idioma, string> = { es: 'Español', en: 'English' };
 
-export function Cabecera({ lang, c }: { lang: Idioma; c: Contenido }) {
+/** `ruta` es la parte tras el idioma (p. ej. `/privacidad`): el cambio de idioma te deja en la misma página. */
+export function Cabecera({ lang, c, ruta = '' }: { lang: Idioma; c: Contenido; ruta?: string }) {
   const otro = OTRO_IDIOMA[lang];
   return (
     <header className="cabecera">
@@ -24,7 +25,7 @@ export function Cabecera({ lang, c }: { lang: Idioma; c: Contenido }) {
             ))}
           </ul>
         </nav>
-        <Link className="idioma" href={`/${otro}`} hrefLang={otro} lang={otro}>
+        <Link className="idioma" href={`/${otro}${ruta}`} hrefLang={otro} lang={otro}>
           {NOMBRE_IDIOMA[otro]}
         </Link>
       </div>
