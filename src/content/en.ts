@@ -245,7 +245,7 @@ export const en: Contenido = {
         {
           titulo: 'Owner',
           parrafos: ['This site is the professional portfolio of Paco López, developer, based in Málaga (Spain). Contact: soypacodev@gmail.com.',
-            'I am not yet self-employed. Before invoicing anyone I will register and publish my tax ID and my business address here.',
+            'I am not yet self-employed. I will register when the first project with a client starts and, at that point, I will publish my tax ID and my business address here.',
           ],
         },
         {

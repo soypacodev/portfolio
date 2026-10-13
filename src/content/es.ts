@@ -245,7 +245,7 @@ export const es: Contenido = {
         {
           titulo: 'Titular',
           parrafos: ['Esta web es el portfolio profesional de Paco López, desarrollador, con sede en Málaga (España). Contacto: soypacodev@gmail.com.',
-            'Todavía no ejerzo como autónomo. Antes de facturar me daré de alta y publicaré aquí mi NIF y mi domicilio profesional.',
+            'Todavía no ejerzo como autónomo. Me daré de alta al empezar el primer proyecto con un cliente y, entonces, publicaré aquí mi NIF y mi domicilio profesional.',
           ],
         },
         {
