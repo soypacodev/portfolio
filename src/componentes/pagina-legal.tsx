@@ -7,7 +7,7 @@ import type { Idioma } from '@/lib/i18n';
 export function PaginaLegal({ lang, c, documento }: { lang: Idioma; c: Contenido; documento: 'privacidad' | 'avisoLegal' }) {
   const d = c.legal[documento];
   return (
-    <>
+    <div className="pagina">
       <a className="saltar" href="#principal">
         {c.accesibilidad.saltar}
       </a>
@@ -32,6 +32,6 @@ export function PaginaLegal({ lang, c, documento }: { lang: Idioma; c: Contenido
         </div>
       </main>
       <Pie lang={lang} c={c} />
-    </>
+    </div>
   );
 }

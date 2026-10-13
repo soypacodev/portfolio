@@ -14,8 +14,10 @@ export default async function Pagina({ params }: { params: Promise<{ lang: strin
   const { lang } = await params;
   if (!esIdioma(lang)) notFound();
   const c = obtenerContenido(lang);
+  // Un único contenedor: con varios nodos hermanos, Next hace scrollIntoView en cada uno al navegar y,
+  // con el desplazamiento suave activado, la página acababa animándose hasta el final.
   return (
-    <>
+    <div className="pagina">
       <a className="saltar" href="#principal">
         {c.accesibilidad.saltar}
       </a>
@@ -29,6 +31,6 @@ export default async function Pagina({ params }: { params: Promise<{ lang: strin
         <Contacto c={c} />
       </main>
       <Pie lang={lang} c={c} />
-    </>
+    </div>
   );
 }

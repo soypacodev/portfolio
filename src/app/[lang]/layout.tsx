@@ -84,7 +84,7 @@ export default async function Layout({ children, params }: { children: React.Rea
   };
 
   return (
-    <html lang={lang}>
+    <html lang={lang} data-scroll-behavior="smooth">
       <body>
         <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(datosEstructurados).replace(/</g, '\\u003c') }} />
         {children}
