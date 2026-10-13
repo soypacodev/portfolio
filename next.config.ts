@@ -16,6 +16,8 @@ const config: NextConfig = {
   reactStrictMode: true,
   // Next 16.4 genera un AGENTS.md al arrancar en desarrollo; el repositorio no lo necesita.
   agentRules: false,
+  // Las capturas llevan texto pequeño: se sirven con más calidad que el 75 por defecto, y en AVIF cuando el navegador lo admite.
+  images: { qualities: [75, 90], formats: ['image/avif', 'image/webp'] },
   async headers() {
     return [{ source: '/:path*', headers: CABECERAS_SEGURIDAD }];
   },

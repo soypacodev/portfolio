@@ -28,7 +28,7 @@ export function Portada({ c }: { c: Contenido }) {
           </div>
           <figure className="retrato">
             <div className="retrato__sol" aria-hidden="true" />
-            <Image className="retrato__foto" src={SITIO.foto} alt={p.fotoAlt} width={480} height={480} sizes="(min-width: 960px) 340px, 240px" priority />
+            <Image className="retrato__foto" src={SITIO.foto} alt={p.fotoAlt} width={480} height={480} sizes="(min-width: 960px) 340px, 240px" quality={90} priority />
           </figure>
         </div>
 

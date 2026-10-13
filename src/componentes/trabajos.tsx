@@ -21,10 +21,10 @@ function Proyecto({ t, e }: { t: Trabajo; e: Contenido['trabajos']['etiquetas'] 
 
         <div className="trabajo__vitrina">
           {principal && (
-            <Image className="captura captura--principal" src={principal.src} alt={principal.alt} width={principal.ancho} height={principal.alto} sizes="(min-width: 1100px) 640px, 92vw" />
+            <Image className="captura captura--principal" src={principal.src} alt={principal.alt} width={principal.ancho} height={principal.alto} sizes="(min-width: 1100px) 840px, 92vw" quality={90} />
           )}
           {resto.map((im, i) => (
-            <Image key={im.src} className={`captura captura--${i + 2}`} src={im.src} alt={im.alt} width={im.ancho} height={im.alto} sizes="(min-width: 1100px) 360px, 60vw" />
+            <Image key={im.src} className={`captura captura--${i + 2}`} src={im.src} alt={im.alt} width={im.ancho} height={im.alto} sizes="(min-width: 1100px) 600px, 60vw" quality={90} />
           ))}
         </div>
 
