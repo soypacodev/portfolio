@@ -10,6 +10,9 @@ function Proyecto({ t, e }: { t: Trabajo; e: Contenido['trabajos']['etiquetas'] 
           <p className="trabajo__tipo">{t.tipo}</p>
           <h3 id={`t-${t.id}`}>{t.nombre}</h3>
           <p className="trabajo__resumen">{t.resumen}</p>
+          <p className="trabajo__beneficio">
+            <strong>{e.beneficio}.</strong> {t.beneficio}
+          </p>
           <div className="acciones">
             {t.enlaces.map((l, i) => (
               <a key={l.href} className={`boton ${i === 0 ? 'boton--proyecto' : 'boton--contorno'}`} href={l.href}>

@@ -21,6 +21,8 @@ export interface Trabajo {
   nombre: string;
   tipo: string;
   resumen: string;
+  /** Qué gana un negocio con algo así, en una frase y sin inventar resultados. */
+  beneficio: string;
   problema: string;
   solucion: string;
   construccion: string;
@@ -78,11 +80,11 @@ export interface Contenido {
     cabeceras: string[];
   };
   disciplinas: { titulo: string; texto: string }[];
-  trabajos: { titulo: string; intro: string; etiquetas: { problema: string; solucion: string; construccion: string; datos: string; pila: string }; items: Trabajo[] };
+  trabajos: { titulo: string; intro: string; etiquetas: { beneficio: string; problema: string; solucion: string; construccion: string; datos: string; pila: string }; items: Trabajo[] };
   servicios: { titulo: string; intro: string; items: Servicio[]; incluyeEtiqueta: string; proceso: { titulo: string; pasos: Paso[] }; nota: string };
   certificaciones: { titulo: string; intro: string; items: Certificacion[]; nota: string };
   sobre: { titulo: string; parrafos: string[] };
-  contacto: { titulo: string; texto: string; correoEtiqueta: string; asunto: string; cuerpo: string; redes: Enlace[]; respuesta: string };
+  contacto: { titulo: string; texto: string; correoEtiqueta: string; asunto: string; cuerpo: string; redes: Enlace[]; respuesta: string; copiar: string; copiado: string };
   pie: { derechos: string; codigo: string; privacidad: string; enlacePrivacidad: string; enlaceAvisoLegal: string };
   legal: { volver: string; actualizado: string; privacidad: DocumentoLegal; avisoLegal: DocumentoLegal };
   noEncontrada: { titulo: string; texto: string; volver: string };

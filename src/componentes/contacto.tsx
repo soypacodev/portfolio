@@ -1,4 +1,5 @@
 import type { Contenido } from '@/content';
+import { CopiarCorreo } from '@/componentes/copiar-correo';
 import { SITIO, enlaceCorreo } from '@/lib/sitio';
 
 export function Contacto({ c }: { c: Contenido }) {
@@ -17,6 +18,7 @@ export function Contacto({ c }: { c: Contenido }) {
             <span className="visualmente-oculto">{k.correoEtiqueta}: </span>
             {SITIO.correo}
           </a>
+          <CopiarCorreo correo={SITIO.correo} etiqueta={k.copiar} confirmacion={k.copiado} />
           <p className="contacto__respuesta">{k.respuesta}</p>
           <ul className="contacto__redes">
             {k.redes.map((r) => (

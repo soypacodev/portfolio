@@ -45,6 +45,7 @@ export const es: Contenido = {
     titulo: 'Trabajos',
     intro: 'Tres proyectos propios, terminados y publicados. Puedes abrirlos, usarlos y leer el código. Ovillo & Co. es una tienda de demostración, sin cliente real; los otros dos son herramientas que cualquiera puede usar.',
     etiquetas: {
+      beneficio: 'Para tu negocio',
       problema: 'El problema',
       solucion: 'Qué hice',
       construccion: 'Cómo está hecho',
@@ -58,6 +59,8 @@ export const es: Contenido = {
         nombre: 'Ovillo & Co.',
         tipo: 'Tienda online completa (demo)',
         resumen: 'Tienda de demostración de un taller de crochet, con pago y panel del dueño, hecha de principio a fin. No hay un cliente real detrás.',
+        beneficio:
+          'Vender online sin atarte a una plantilla ni depender de nadie para cada cambio: pedidos, stock y encargos se gestionan desde un panel pensado para quien lleva el taller.',
         problema:
           'El caso que planteé: un negocio pequeño que vende piezas únicas y por encargo no encaja en una plantilla genérica: necesita plazos de confección, personalización y un panel que pueda usar sin saber de informática.',
         solucion:
@@ -82,6 +85,8 @@ export const es: Contenido = {
         nombre: '¿Es segura tu web?',
         tipo: 'Herramienta de seguridad gratuita',
         resumen: 'Pegas la dirección de una web y recibes una nota de la A+ a la F, con qué falla y cómo arreglarlo.',
+        beneficio:
+          'Saber en un minuto, sin jerga, si tu web tiene problemas y qué arreglar primero. Es el mismo tipo de revisión que ofrezco como servicio, siempre con permiso de su titular.',
         problema:
           'Los pequeños negocios no saben si su web está bien protegida, y los informes técnicos no los entiende nadie que no sea del gremio. Muchos ni siquiera saben qué preguntar.',
         solucion:
@@ -105,6 +110,8 @@ export const es: Contenido = {
         nombre: 'Cachivache',
         tipo: 'Aplicación de escritorio para Windows',
         resumen: 'Libera espacio en Windows y te explica qué va a borrar y qué pasa si lo borras. Solo toca lo que marcas.',
+        beneficio:
+          'Demuestra mi criterio: software que explica lo que hace y no toca nada sin avisar. Es la misma forma de trabajar que aplico a lo que construyo para un cliente.',
         problema:
           'Los limpiadores piden un acto de fe: una barra de progreso, «has recuperado 12 GB» y ni idea de qué era. Borrar mal puede romper el equipo, y son programas poco transparentes.',
         solucion:
@@ -192,6 +199,8 @@ export const es: Contenido = {
       { etiqueta: 'Instagram', href: 'https://www.instagram.com/soypacodev' },
     ],
     respuesta: 'Suelo contestar en un día laborable.',
+    copiar: 'Copiar correo',
+    copiado: 'Correo copiado',
   },
   pie: {
     derechos: 'Paco López',

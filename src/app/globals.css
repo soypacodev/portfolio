@@ -645,6 +645,14 @@ main:focus {
   text-wrap: pretty;
 }
 
+.trabajo__beneficio {
+  max-width: 34rem;
+  margin: 0 0 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--p-acento, var(--sol));
+  font-size: 1.02rem;
+  text-wrap: pretty;
+}
 .boton--proyecto {
   background: var(--p-acento);
   color: var(--p-sobre-acento);
@@ -1067,6 +1075,23 @@ main:focus {
 .contacto__correo:hover {
   background: var(--sol);
   color: var(--sol-tinta);
+}
+.contacto__copiar {
+  display: block;
+  margin-top: 0.9rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 1.1rem;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.contacto__copiar:hover {
+  background: #fff;
+  color: var(--tinta);
 }
 .contacto__respuesta {
   margin-top: 1rem;

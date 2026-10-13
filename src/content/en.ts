@@ -45,6 +45,7 @@ export const en: Contenido = {
     titulo: 'Work',
     intro: 'Three projects of my own, finished and published. You can open them, use them and read the code. Ovillo & Co. is a demo shop with no real client; the other two are tools anyone can use.',
     etiquetas: {
+      beneficio: 'For your business',
       problema: 'The problem',
       solucion: 'What I did',
       construccion: 'How it is built',
@@ -58,6 +59,8 @@ export const en: Contenido = {
         nombre: 'Ovillo & Co.',
         tipo: 'Complete online shop (demo)',
         resumen: 'A demo shop for a crochet workshop, with checkout and an owner dashboard, built end to end. There is no real client behind it.',
+        beneficio:
+          'Sell online without being tied to a template or to someone else for every change: orders, stock and custom requests are managed from a dashboard designed for whoever runs the workshop.',
         problema:
           "The case I set myself: a small business selling one-off and made-to-order pieces doesn't fit a generic template: it needs lead times, personalisation and a dashboard the owner can use without being technical.",
         solucion:
@@ -82,6 +85,8 @@ export const en: Contenido = {
         nombre: '¿Es segura tu web?',
         tipo: 'Free security tool',
         resumen: 'Paste a website address and get a grade from A+ to F, with what is wrong and how to fix it.',
+        beneficio:
+          "Find out in a minute, without jargon, whether your website has problems and what to fix first. It is the same kind of review I offer as a service, always with the owner's permission.",
         problema:
           "Small businesses don't know whether their website is properly protected, and technical reports are unreadable for anyone outside the trade. Many don't even know what to ask.",
         solucion:
@@ -105,6 +110,8 @@ export const en: Contenido = {
         nombre: 'Cachivache',
         tipo: 'Windows desktop application',
         resumen: 'Frees up space on Windows and tells you what it will delete and what happens if you do. It only touches what you tick.',
+        beneficio:
+          'It shows my judgement: software that explains what it does and touches nothing without warning. It is the same way I work on what I build for a client.',
         problema:
           'Cleaners ask for blind faith: a progress bar, "you recovered 12 GB" and no idea what it was. Deleting the wrong thing can break a PC, and these programs are rarely transparent.',
         solucion:
@@ -192,6 +199,8 @@ export const en: Contenido = {
       { etiqueta: 'Instagram', href: 'https://www.instagram.com/soypacodev' },
     ],
     respuesta: 'I usually reply within one working day.',
+    copiar: 'Copy email',
+    copiado: 'Email copied',
   },
   pie: {
     derechos: 'Paco López',
