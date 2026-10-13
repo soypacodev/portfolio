@@ -31,10 +31,10 @@ export const es: Contenido = {
   },
   sello: {
     titulo: 'Esta web saca A+',
-    nota: 'en mi propio analizador de seguridad',
+    nota: 'en mi propio analizador de seguridad (comprobado el 13 de octubre de 2026)',
     detalle: 'No te lo cuento yo: pega la dirección de esta web en ¿Es segura tu web? y míralo tú mismo.',
     verificar: 'Comprobarlo ahora',
-    cabeceras: ['Política de contenido con nonce', 'HSTS de dos años', 'Sin scripts de terceros', 'Sin cookies'],
+    cabeceras: ['Protegida contra código inyectado', 'Conexión cifrada obligatoria durante dos años', 'Sin scripts de terceros', 'Sin cookies'],
   },
   disciplinas: [
     { titulo: 'Webs y apps a medida', texto: 'Tiendas, paneles y herramientas que se adaptan a cómo trabajas, no al revés.' },
@@ -160,7 +160,7 @@ export const es: Contenido = {
   },
   certificaciones: {
     titulo: 'Certificaciones',
-    intro: 'Formación reconocida en ciberseguridad, redes y soporte técnico.',
+    intro: 'Formación de nivel introductorio en ciberseguridad, redes y soporte técnico.',
     items: [
       { nombre: 'Certified in Cybersecurity (CC)', emisor: '(ISC)²', anio: 2023 },
       { nombre: 'NSE 1 · Information Security Awareness', emisor: 'Fortinet', anio: 2023 },

@@ -31,10 +31,10 @@ export const en: Contenido = {
   },
   sello: {
     titulo: 'This site scores A+',
-    nota: 'on my own security analyser',
+    nota: 'on my own security analyser (checked on 13 October 2026)',
     detalle: "Don't take my word for it: paste this site's address into ¿Es segura tu web? and see for yourself.",
     verificar: 'Check it now',
-    cabeceras: ['Content policy with nonce', 'Two-year HSTS', 'No third-party scripts', 'No cookies'],
+    cabeceras: ['Protected against injected code', 'Encrypted connection enforced for two years', 'No third-party scripts', 'No cookies'],
   },
   disciplinas: [
     { titulo: 'Custom websites and apps', texto: 'Shops, dashboards and tools that fit how you work, not the other way round.' },
@@ -160,7 +160,7 @@ export const en: Contenido = {
   },
   certificaciones: {
     titulo: 'Certifications',
-    intro: 'Recognised training in cybersecurity, networking and IT support.',
+    intro: 'Entry-level training in cybersecurity, networking and IT support.',
     items: [
       { nombre: 'Certified in Cybersecurity (CC)', emisor: '(ISC)²', anio: 2023 },
       { nombre: 'NSE 1 · Information Security Awareness', emisor: 'Fortinet', anio: 2023 },
